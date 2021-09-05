@@ -20,6 +20,7 @@ import (
 	"time"
 )
 
+// Taken from: https://blog.josejg.com/debugging-pretty/
 type logTopic string
 const (
 	dClient  logTopic = "CLNT"
